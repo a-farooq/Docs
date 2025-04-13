@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+    <units>
+        <unit>3</unit>
+        <unit>19</unit>
+        <unit>35</unit>
+        <unit>73</unit>
+    </units>
+    <setup>
+        <start book = "none"/>
+        <music>
+            <alert delay = "2000">
+                <on src = "Please wait while the music is loading."/>
+                <off src = "Music stopped."/>
+            </alert>
+        </music>
+        <preloading>
+            <background src = "LOADING BACKGROUND"/>
+            <covers src = "LOADING COVERS"/>
+            <book src = "LOADING BOOK"/>
+            <photo src = "LOADING BIGGER PHOTO"/>
+        </preloading>
+        <other>
+            <arrows state = "enabled"/>
+        </other>
+    </setup>
+    <preloading>
+        <background src = "LOADING BACKGROUND"/>
+        <covers src = "LOADING COVERS"/>
+        <book src = "LOADING BOOK"/>
+        <photo src = "LOADING BIGGER PHOTO"/>
+    </preloading>
+    <flipbook
+        width = "886"
+        height = "620"
+        proportion = "0"
+        boarder = "2"
+        middleBoarder = "0.5"
+        boarderColor = "0xFFFFFF"
+        boarderAlpha = "1"
+        title = "i-Book"
+        bitmapSmoothing = "true"
+        doubleClick = "true"
+        resizeSwf = "false"
+        resizeContent = "true"
+        resizeTableOfContent = "false"
+        zoom = "false">
+        <alert delay = "2000">
+            <loadingNext src = "Please wait while the new page loads."/>
+            <loading src = "Please wait while the page loads."/>
+            <pageNumber src = "There are only 18 pages"/>
+            <video>
+                <enlarge src = "Double Click to enlarge the video"/>
+                <close src = "Double Click to close the video"/>
+                <preloading src = "LOADING VIDEO"/>
+            </video>
+        </alert>
+        <shadows>
+            <inner src = "0.2"/>
+            <curveGlow src = "0.2"/>
+            <pageShadow src = "0.2"/>
+            <innerPageShadow src = "0.2"/>
+        </shadows>
+        <tableOfContent number = "2"/>
+        <thumbnails>
+            <boarder thickness = "5" color = "0x111111"/>
+        </thumbnails>
+        <page src = "assets/pages/cover.swf"></page>
+        <page src = "assets/pages/pg_1.swf"></page>
+        <page src = "assets/pages/pg_2.swf"></page>
+        <page src = "assets/pages/pg_3.swf">
+            <chapters>
+                <chapter>5</chapter>
+                <chapter>13</chapter>
+            </chapters>
+        </page>
+        <page src = "assets/pages/pg_4.swf"></page>
+        <page src = "assets/pages/pg_5.swf"></page>
+        <page src = "assets/pages/pg_6.swf"></page>
+        <page src = "assets/pages/pg_7.swf"></page>
+        <page src = "assets/pages/pg_8.swf"></page>
+        <page src = "assets/pages/pg_9.swf"></page>
+        <page src = "assets/pages/pg_10.swf"></page>
+        <page src = "assets/pages/pg_11.swf">
+            <activities>
+                <activity>assets\activities\plant_life\plants_around_us\7_A_1\7_A_1.swf</activity>
+                <activity>assets\activities\plant_life\plants_around_us\8_A_2\8_A_2.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\plant_life\plants_around_us\11_12e_a\pg11_e_1.swf</exercise>
+                <exercise>assets\exercise\plant_life\plants_around_us\13_e_c\pg13_e_2.swf</exercise>
+                <exercise>assets\exercise\plant_life\plants_around_us\14_e_f\pg14_e_3.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_12.swf"></page>
+        <page src = "assets/pages/pg_13.swf"></page>
+        <page src = "assets/pages/pg_14.swf"></page>
+        <page src = "assets/pages/pg_15.swf"></page>
+        <page src = "assets/pages/pg_16.swf"></page>
+        <page src = "assets/pages/pg_17.swf">
+            <activities>
+                <activity>assets\activities\plant_life\plants_as_food\16_A_1\16_A_1.swf</activity>
+                <activity>assets\activities\plant_life\plants_as_food\17_A_2\17_A_2.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\plant_life\plants_as_food\17_18_e_a\pg17_e_1.swf</exercise>
+                <exercise>assets\exercise\plant_life\plants_as_food\19_e_d\pg19_e_2.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_18.swf"></page>
+        <page src = "assets/pages/pg_19.swf">
+            <chapters>
+                <chapter>21</chapter>
+                <chapter>29</chapter>
+            </chapters>
+        </page>
+        <page src = "assets/pages/pg_20.swf"></page>
+        <page src = "assets/pages/pg_21.swf"></page>
+        <page src = "assets/pages/pg_22.swf"></page>
+        <page src = "assets/pages/pg_23.swf"></page>
+        <page src = "assets/pages/pg_24.swf"></page>
+        <page src = "assets/pages/pg_25.swf"></page>
+        <page src = "assets/pages/pg_26.swf"></page>
+        <page src = "assets/pages/pg_27.swf"></page>
+        <page src = "assets/pages/pg_28.swf">
+            <activities>
+                <activity>assets\activities\animal_life\animals_around_us\21A_1\21A_1.swf</activity>
+                <activity>assets\activities\animal_life\animals_around_us\23_24_A_2\23_24_A_2.swf</activity>
+                <activity>assets\activities\animal_life\animals_around_us\26_A_3\26_A_3.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\animal_life\animals_around_us\24_e_a\pg24_e_1.swf</exercise>
+                <exercise>assets\exercise\animal_life\animals_around_us\25e_b\pg25_e_2.swf</exercise>
+                <exercise>assets\exercise\animal_life\animals_around_us\25_e_c\pg25_e_3.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_29.swf"></page>
+        <page src = "assets/pages/pg_30.swf"></page>
+        <page src = "assets/pages/pg_31.swf"></page>
+        <page src = "assets/pages/pg_32.swf"></page>
+        <page src = "assets/pages/pg_33.swf"></page>
+        <page src = "assets/pages/pg_34.swf">
+            <activities>
+                <activity>assets\activities\animal_life\animals_need_food_shelter\28_A_1\28_A_1.swf</activity>
+                <activity>assets\activities\animal_life\animals_need_food_shelter\28_A_2\28_A_2.swf</activity>
+                <activity>assets\activities\animal_life\animals_need_food_shelter\29A_3\29A_3.swf</activity>
+                <activity>assets\activities\animal_life\animals_need_food_shelter\31_A_4\31_A_4.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\animal_life\animals_need_food_shelter\32_e_c\pg32_e_1.swf</exercise>
+                <exercise>assets\exercise\animal_life\animals_need_food_shelter\32_e_b\pg32_e_2.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_35.swf">
+            <chapters>
+                <chapter>37</chapter>
+                <chapter>43</chapter>
+                <chapter>49</chapter>
+                <chapter>55</chapter>
+                <chapter>63</chapter>
+            </chapters>
+        </page>
+        <page src = "assets/pages/pg_36.swf"></page>
+        <page src = "assets/pages/pg_37.swf"></page>
+        <page src = "assets/pages/pg_38.swf"></page>
+        <page src = "assets/pages/pg_39.swf"></page>
+        <page src = "assets/pages/pg_40.swf"></page>
+        <page src = "assets/pages/pg_41.swf">
+            <activities>
+                <activity>assets\activities\human_body\the_human_body\37_A_1\37_A_1.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\human_body\the_human_body\38_e_c\pg38_e_1.swf</exercise>
+                <exercise>assets\exercise\human_body\the_human_body\38_e_d\pg38_e_2.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_42.swf"></page>
+        <page src = "assets/pages/pg_43.swf"></page>
+        <page src = "assets/pages/pg_44.swf"></page>
+        <page src = "assets/pages/pg_45.swf"></page>
+        <page src = "assets/pages/pg_46.swf"></page>
+        <page src = "assets/pages/pg_47.swf">
+            <activities>
+                <activity>assets\activities\human_body\food_for_health\42_A_1\42_A_1.swf</activity>
+                <activity>assets\activities\human_body\food_for_health\44_A_2\44_A_2.swf</activity>
+                <activity>assets\activities\human_body\food_for_health\45_A_3\45_A_3.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\human_body\food_for_health\42_e_a\pg42_e_1.swf</exercise>
+                <exercise>assets\exercise\human_body\food_for_health\43_e_b\pg43_E_2.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_48.swf"></page>
+        <page src = "assets/pages/pg_49.swf"></page>
+        <page src = "assets/pages/pg_50.swf"></page>
+        <page src = "assets/pages/pg_51.swf"></page>
+        <page src = "assets/pages/pg_52.swf"></page>
+        <page src = "assets/pages/pg_53.swf"></page>
+         <page src = "assets/pages/pg_54.swf">
+            <activities>
+                <activity>assets\activities\human_body\housing_and_clothing\46_A_1\46_A_1.swf</activity>
+                <activity>assets\activities\human_body\housing_and_clothing\48_A_2\48_A_2.swf</activity>
+                <activity>assets\activities\human_body\housing_and_clothing\49_A_3\49_A_3.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\human_body\housing_and_clothing\51_e_a\pg51_e_1.swf</exercise>
+                <exercise>assets\exercise\human_body\housing_and_clothing\52_e_b\pg52_e_2.swf</exercise>
+                <exercise>assets\exercise\human_body\housing_and_clothing\52_e_c\pg52_e_3.swf</exercise>
+                <exercise>assets\exercise\human_body\housing_and_clothing\53_e_e\pg53_e_4.swf</exercise>
+            </exercises>
+        </page>
+		<page src = "assets/pages/pg_55.swf"></page>
+        <page src = "assets/pages/pg_56.swf"></page>
+        <page src = "assets/pages/pg_57.swf"></page>
+        <page src = "assets/pages/pg_58.swf"></page>
+        <page src = "assets/pages/pg_59.swf"></page>
+        <page src = "assets/pages/pg_60.swf"></page>
+        <page src = "assets/pages/pg_62.swf"></page>
+        <page src = "assets/pages/pg_61.swf">
+            <activities>
+                <activity>assets\activities\human_body\keeping_safe\56_A_1\56_A_1.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\human_body\keeping_safe\60_e_c\pg60_e_1.swf</exercise>
+                <exercise>assets\exercise\human_body\keeping_safe\60_e_d\pg60_E_2.swf</exercise>
+                <exercise>assets\exercise\human_body\keeping_safe\61_e_e\pg61_e_3.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_63.swf"></page>
+        <page src = "assets/pages/pg_64.swf"></page>
+        <page src = "assets/pages/pg_65.swf"></page>
+        <page src = "assets/pages/pg_66.swf"></page>
+        <page src = "assets/pages/pg_67.swf"></page>
+        <page src = "assets/pages/pg_68.swf"></page>
+        <page src = "assets/pages/pg_69.swf"></page>
+        <page src = "assets/pages/pg_70.swf"></page>
+        <page src = "assets/pages/pg_71.swf">
+            <activities>
+                <activity>assets\activities\human_body\keeping_healthy\63_A_1\63_A_1.swf</activity>
+                <activity>assets\activities\human_body\keeping_healthy\66_A_2\66_A_2.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\human_body\keeping_healthy\68_e_a\pg68_e_1.swf</exercise>
+                <exercise>assets\exercise\human_body\keeping_healthy\69_e_b\pg69_e_2.swf</exercise>
+                <exercise>assets\exercise\human_body\keeping_healthy\69_e_d\pg69_e_3.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_72.swf"></page>
+        <page src = "assets/pages/pg_73.swf">
+            <chapters>
+                <chapter>75</chapter>
+                <chapter>83</chapter>
+                <chapter>87</chapter>
+                <chapter>93</chapter>
+            </chapters>
+        </page>
+        <page src = "assets/pages/pg_74.swf"></page>
+        <page src = "assets/pages/pg_75.swf"></page>
+        <page src = "assets/pages/pg_76.swf"></page>
+        <page src = "assets/pages/pg_78.swf"></page>
+        <page src = "assets/pages/pg_79.swf"></page>
+        <page src = "assets/pages/pg_77.swf"></page>
+        <page src = "assets/pages/pg_80.swf"></page>
+        <page src = "assets/pages/pg_81.swf">
+            <exercises>
+                <exercise>assets\exercise\space_environment\air\74_e_b\pg74_e_1.swf</exercise>
+                <exercise>assets\exercise\space_environment\air\74_e_d\pg74_e_2.swf</exercise>
+                <exercise>assets\exercise\space_environment\air\75_e_e\pg75_e_3.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_82.swf"></page>
+        <page src = "assets/pages/pg_83.swf"></page>
+        <page src = "assets/pages/pg_84.swf"></page>
+        <page src = "assets/pages/pg_85.swf"></page>
+        <page src = "assets/pages/pg_86.swf">
+            <activities>
+                <activity>assets\activities\spaceandenvironment\water\78_A_1\78_A_1.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\space_environment\water\79_e_a\pg79_e_1.swf</exercise>
+                <exercise>assets\exercise\space_environment\water\79_e_b\pg79_e_2.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_87.swf"></page>
+        <page src = "assets/pages/pg_88.swf"></page>
+        <page src = "assets/pages/pg_90.swf"></page>
+        <page src = "assets/pages/pg_89.swf"></page>
+        <page src = "assets/pages/pg_91.swf"></page>
+        <page src = "assets/pages/pg_92.swf">
+            <activities>
+                <activity>assets\activities\spaceandenvironment\weather\82A_1\82A_1.swf</activity>
+                <activity>assets\activities\spaceandenvironment\weather\83_A_2\83_A_2.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\space_environment\weather\84_e_a\pg84_e_1.swf</exercise>
+                <exercise>assets\exercise\space_environment\weather\85_e_b\pg85_e_2.swf</exercise>
+                <exercise>assets\exercise\space_environment\weather\85_e_d\pg85_e_3.swf</exercise>
+                <exercise>assets\exercise\space_environment\weather\86_e_e\pg86_e_4.swf</exercise>
+            </exercises>
+        </page>
+        <page src = "assets/pages/pg_93.swf"></page>
+        <page src = "assets/pages/pg_94.swf"></page>
+        <page src = "assets/pages/pg_95.swf"></page>
+        <page src = "assets/pages/pg_96.swf">
+            <activities>
+                <activity>assets\activities\spaceandenvironment\the_sun_moonandstars\89_A_1\89_A_1.swf</activity>
+            </activities>
+            <exercises>
+                <exercise>assets\exercise\space_environment\the_sun_moon_stars\89_e_a\pg89_e_1.swf</exercise>
+                <exercise>assets\exercise\space_environment\the_sun_moon_stars\89_e_b\pg89_e_2.swf</exercise>
+                <exercise>assets\exercise\space_environment\the_sun_moon_stars\90_e_c\pg90_e_3.swf</exercise>
+            </exercises>
+        </page>
+		<page src = "assets/pages/back.swf"></page>
+    </flipbook>
+</data>
+                                                                                                                                                                                                                                                                                                                                                                                                                 
